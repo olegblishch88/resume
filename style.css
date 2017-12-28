@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#welcome-part{
+    max-width: 850px;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 150px;
+    margin-top: 50px;
+    background-image:url(background.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat:round;
+    font-family: 'Teko', sans-serif;
+    box-shadow:20px 5px 5px rgba(0,0,0,0.4);
+}
+#welcome-part h1{
+    color: white;
+    position: relative;
+    left: 50px;
+    font-size: 45px;
+}
+#welcome-part p{
+    color: white;
+    position: relative;
+    left: 50px;
+    line-height: 35px;
+    font-size: 25px;
+}
+.logo{
+    float: right;
+    position: relative;
+    bottom: 134px;
+    right: 10px;
+}
+.main{
+    margin: 0 auto;
+    max-width: 850px;
+    margin-top: 10px;
+    height: 700px;
+}
+#introducing{
+    max-width: 300px;
+    border: 1px solid black;
+    height: 650px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+    border-radius: 20px;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:20px 5px 5px rgba(0,0,0,0.4);
+}
+.my-photo{
+    border-radius: 110px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border: 4px solid #00004d;
+}
+.my-photo:hover{
+    color: rgba(0,0,0,0.4);
+}
+#about-me{
+    width: 500px;
+    border: 1px solid black;
+    height: 650px;
+    position: relative;
+    left:340px;
+    top: -645px;
+    border-radius: 20px;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:20px 5px 5px rgba(0,0,0,0.4);
+}
+.me{
+    width: 300px;
+    margin-top: 40px;
+    text-align: center;
+}
+.me h1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+.education{
+    width: 300px;
+    text-align: justify;
+    color: white;
+}
+.education h1{
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-align: center;
+}
+.education h2{
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px black;
+    position: relative;
+    left: 10px;
+}
+.education p{
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+}
+.btn{
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+.btn:hover{
+    background:linear-gradient(grey,white);
+}
+.device{
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+.text{
+    position: relative;
+    top: 40px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px black
+}
+.text h1{
+    font-size: 40px;
+}
+.text p{
+    font-size: 18px;
+}
+#profile-text{
+    display: block;
+}
+#education-text{
+    display: none;
+}
+#education-text h1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.ed-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 250px;
+    left: 140px;
+}
+.college{
+    width: 300px;
+    text-align:left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px black;
+}
+.university{
+    width: 300px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Teko',sans-serif;
+    text-shadow: 2px 2px black;
+}
+.it-courses{
+    width: 300px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Teko',sans-serif;
+    text-shadow: 2px 2px black;
+}
+.img-edu{
+    float: right;
+    position: relative;
+    bottom:40px;
+}
+.education-images{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    right: 70px;
+    bottom:230px;
+    height: 240px;
+}
+#skills{
+    display: none;
+}
+#skills h1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+#skills h2{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    position: relative;
+    left: 40px;
+    top: 100px;
+}
+#skills p{
+    color: white;
+    font-family: 'Teko',sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+.lang{
+    color: white;
+    font-family: 'Teko',sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+}
+.prog-skills p{
+    width: 400px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+    text-align: center;
+    
+}
+#interests h1{
+    color: white;
+    font-family: 'Teko',sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    left: 30px;
+}
+.man{
+    position: relative;
+    left: 119px
+}
+#interests{
+    display: none;
+}
+#interests p{
+    width: 400px;
+    color: white;
+    font-family: 'Teko',sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    text-align:justify;
+    position: relative;
+    left: 50px;
+}
+#contacts{
+    display: none;
+}
+#contacts h1{
+     color: white;
+    font-family: 'Teko',sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    left: 30px;
+}
+
+form{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+form input{
+    width: 300px;
+    height: 25px;
+}
+textarea{
+    width: 300px;
+    height: 150px;
+}
+#contacts p{
+     color: white;
+    font-family: 'Teko',sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+#submit:hover{
+    background:linear-gradient(grey,white);
+}
+.social-media{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#introducing>div{
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+#introducing>div>img{
+    display: block;
+    width: 200px;
+    transition: .1s transform;
+    transform: translateZ(0); 
+}
+#introducing>div:hover{
+    z-index: 1;
+}
+#introducing>div:hover > img{
+    transform: scale(1.7,1.7);
+    transition: .3s transform;
+}
+.cf:before, .cf:after {
+   display: table;
+   content: "";
+   line-height: 0;
+}
+
+.cf:after {
+   clear: both;
+}
